@@ -7,13 +7,16 @@
 .scatola{
     display: flex;
     height: 100vh;
-    background-color: aqua;
+    background-color: greenyellow ;
     justify-content: center;
-    align-items: top;
+    align-items: flex-start;
     flex-direction: column;
     border-style: solid;
     border-color: crimson;
     border-width: 3px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #immagine_profilo{
     width: 120px;
@@ -37,4 +40,11 @@
     position: relative;
     left: 28%;
     top: -37%;
+}
+.social1{
+    height: 20px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
 }
