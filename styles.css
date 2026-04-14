@@ -1,0 +1,40 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scatola{
+    display: flex;
+    height: 100vh;
+    background-color: aqua;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 3px;
+}
+#immagine_profilo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    transition: 1s;
+    position: relative;
+    left: 33%;
+    top: -40%;
+}
+    #immagine_profilo:hover{
+    box-shadow: 7px 7px 3px gray;
+    border-width: 3px;
+    border-style: solid;
+    border-color: deeppink;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 28%;
+    top: -37%;
+}
